@@ -2,8 +2,8 @@
   "Deel": {
     "companyName": "Deel",
     "website": "https://deel.com",
-    "industry": "HR Technology / Global Payroll & Employer of Record (EOR)",
-    "summary": "Deel faces consistent criticism around poor customer support responsiveness, unexpected fees and pricing opacity, and platform bugs that cause payroll errors and delays. Users frequently report slow ticket resolution times, a lack of dedicated account managers for smaller clients, and difficulties navigating complex offboarding and contract termination processes.",
+    "industry": "HR Tech / Global Payroll & Employer of Record (EOR)",
+    "summary": "Deel faces consistent criticism around poor and slow customer support, unexpected fees and pricing opacity, and platform bugs or technical issues. Contractors and employees frequently report delayed payments, unresponsive account managers, and a steep learning curve for the platform. Compliance-related errors and contract mismanagement are recurring themes that undermine trust among enterprise and SMB clients alike.",
     "overallSentiment": 5,
     "reviewSources": [
       {
@@ -11,59 +11,59 @@
         "rating": "4.4/5",
         "reviewCount": "4,500+",
         "mainComplaints": [
-          "Slow and unresponsive customer support, especially via live chat",
-          "Unexpected fees and lack of pricing transparency",
-          "Platform bugs causing payment delays",
-          "Complicated offboarding and contract termination process",
-          "Limited customization for complex payroll scenarios"
+          "Slow and unhelpful customer support response times",
+          "Unexpected or hidden fees",
+          "Platform UX is confusing for new users",
+          "Account manager turnover leads to inconsistent service",
+          "Bugs and glitches in the dashboard"
         ]
       },
       {
         "source": "Trustpilot",
-        "rating": "4.0/5",
-        "reviewCount": "1,000+",
+        "rating": "4.5/5",
+        "reviewCount": "6,000+",
         "mainComplaints": [
-          "Contractors reporting delayed or withheld payments",
-          "Account freezes with little explanation",
-          "Poor communication during dispute resolution",
-          "High withdrawal fees for certain currencies and methods",
-          "Difficulty getting human support for urgent issues"
+          "Payment delays and holds with little explanation",
+          "Difficulty getting issues resolved through support tickets",
+          "Withdrawal fees seen as excessive",
+          "Complaints about funds being frozen without clear communication",
+          "Negative experiences from contractors vs. companies diverge sharply"
         ]
       },
       {
         "source": "Glassdoor",
-        "rating": "3.6/5",
-        "reviewCount": "800+",
+        "rating": "3.8/5",
+        "reviewCount": "1,200+",
         "mainComplaints": [
-          "Rapid growth leading to internal disorganization",
-          "High employee turnover in customer-facing roles affecting service quality",
-          "Inconsistent management practices across regions",
-          "Sales-first culture creating over-promising to clients",
-          "Lack of proper onboarding for new internal employees"
+          "High internal employee turnover causing poor client continuity",
+          "Over-promising during sales and under-delivering post-onboarding",
+          "Chaotic internal processes due to rapid scaling",
+          "Management decisions feel disconnected from front-line reality",
+          "Sales-driven culture prioritized over customer success"
         ]
       },
       {
-        "source": "Reddit (r/digitalnomad, r/freelance, r/remotework)",
-        "rating": "Mixed",
-        "reviewCount": "500+ threads/comments",
+        "source": "Reddit (r/freelance, r/digitalnomad, r/remotework)",
+        "rating": "Mixed/Negative",
+        "reviewCount": "500+ threads",
         "mainComplaints": [
-          "Contractors experiencing sudden account suspensions without warning",
-          "Withdrawal fees considered excessive compared to alternatives",
-          "Support tickets going unanswered for days or weeks",
-          "Compliance requirements varying wildly by country with poor documentation",
-          "Difficulty canceling or modifying contracts"
+          "Funds held or frozen without adequate explanation",
+          "Customer support takes days or weeks to respond",
+          "Contractors feel unprotected when disputes arise with clients",
+          "Confusing tax document generation (1099, invoices)",
+          "Currency conversion rates seen as unfavorable"
         ]
       },
       {
         "source": "Twitter/X",
-        "rating": "Mixed",
+        "rating": "Mixed/Negative",
         "reviewCount": "1,000+ mentions",
         "mainComplaints": [
-          "Public callouts for ignoring support tickets for weeks",
-          "Payment holds causing financial hardship for contractors",
-          "Bugs in the platform resetting or losing submitted documents",
-          "Frustration with automated chatbot responses instead of human agents",
-          "Pricing changes implemented with short notice"
+          "Public complaints about payment freezes going viral",
+          "Users tagging Deel for lack of support response",
+          "Criticism over compliance errors affecting workers in certain countries",
+          "Frustration with withdrawal limits and processing times",
+          "Complaints about account terminations without clear reasoning"
         ]
       }
     ],
@@ -72,217 +72,213 @@
         "category": "Customer Support Quality",
         "severity": "High",
         "percentage": "38%",
-        "description": "The most pervasive complaint across all platforms is slow, unhelpful, or unreachable customer support. Users report that live chat is often handled by bots, ticket response times can exceed 5–10 business days, and there is no dedicated account manager for SMB or individual contractor clients. Urgent payroll issues are especially problematic when support is unavailable.",
+        "description": "The most dominant complaint across all platforms is that Deel's customer support is slow, generic, and often fails to resolve issues. Users report waiting days for responses to urgent payroll or compliance questions. Live chat frequently routes to bots or unprepared agents.",
         "examples": [
-          "Submitted a support ticket 2 weeks ago about a failed payment — still no resolution",
-          "Their chat support is just a bot loop. You can never reach an actual human",
-          "No dedicated account manager for our 50-person team; every question goes into a black hole"
+          "Opened a support ticket for a payment issue and received an auto-reply followed by silence for 2 weeks",
+          "My account manager left the company and nobody told me — I had no point of contact for a month",
+          "Live chat is useless, just sends you links to help articles that don't answer the question"
         ]
       },
       {
-        "category": "Pricing Transparency & Hidden Fees",
+        "category": "Payment Delays & Fund Holds",
         "severity": "High",
-        "percentage": "25%",
-        "description": "Multiple users across G2 and Trustpilot report that the advertised pricing does not reflect the true cost once withdrawal fees, currency conversion markups, compliance add-ons, and contractor management fees are factored in. Pricing changes are sometimes implemented with minimal notice.",
+        "percentage": "28%",
+        "description": "Contractors and employees regularly report that payments are delayed, held, or frozen — sometimes without any explanation or warning. This is particularly problematic for workers in emerging markets who rely on timely payouts.",
         "examples": [
-          "Was quoted $49/month per contractor but ended up paying nearly double with all the add-ons",
-          "Withdrawal fees to my local bank account were never disclosed upfront",
-          "They changed pricing on our plan mid-cycle with only 2 weeks notice"
+          "My salary was held for 10 days with no explanation from the compliance team",
+          "Deel froze my account right before a major withdrawal and support couldn't tell me why",
+          "Payment was stuck in 'processing' for weeks — no ETA given, no callback offered"
         ]
       },
       {
-        "category": "Platform Reliability & Bugs",
+        "category": "Pricing Opacity & Hidden Fees",
         "severity": "High",
         "percentage": "20%",
-        "description": "Users frequently encounter bugs ranging from uploaded documents disappearing, payment processing failures, incorrect tax forms being generated, and the dashboard showing inaccurate data. These issues are especially disruptive during payroll runs and end-of-year tax processing.",
+        "description": "Clients frequently express frustration over unexpected charges, withdrawal fees, currency conversion margins, and costs that were not clearly disclosed during the sales process. The gap between quoted and actual costs erodes trust.",
         "examples": [
-          "My contractor's invoice was processed twice and getting a refund took over 3 weeks",
-          "The platform reset all my compliance documents and asked me to resubmit everything",
-          "Tax forms generated for the wrong country — took months to fix"
+          "We were quoted one price during sales and our monthly invoice was 30% higher after onboarding",
+          "Withdrawal fees are buried in the fine print — contractors are surprised every time",
+          "Currency conversion rates are not transparent and are significantly worse than market rate"
         ]
       },
       {
-        "category": "Contractor Payment Delays & Account Freezes",
-        "severity": "High",
-        "percentage": "22%",
-        "description": "A significant segment of negative reviews from contractors specifically cite sudden account freezes, delayed payouts, and withheld funds. Some users report financial hardship resulting from payment holds that lasted weeks, often with vague or no explanation provided.",
-        "examples": [
-          "My account was frozen for 3 weeks with no explanation — I had bills to pay",
-          "Payment has been 'processing' for 12 days. Support won't tell me why",
-          "They held my withdrawal citing 'compliance review' and never followed up"
-        ]
-      },
-      {
-        "category": "Offboarding & Contract Termination Complexity",
+        "category": "Platform Bugs & UX Issues",
         "severity": "Medium",
-        "percentage": "15%",
-        "description": "Users report that terminating EOR agreements or ending contractor contracts is a cumbersome, slow, and sometimes costly process. Notice periods, termination fees, and country-specific requirements are often unclear, leading to unexpected costs and delays.",
+        "percentage": "18%",
+        "description": "Users cite frequent glitches in the dashboard, incorrect document generation, broken integrations with tools like QuickBooks or BambooHR, and a steep learning curve. The platform's complexity increases errors for HR admins managing large contractor pools.",
         "examples": [
-          "Terminating an EOR employee in Germany took 4 months and cost way more than expected",
-          "They charged us a fee we weren't aware of for early contract termination",
-          "The offboarding checklist is confusing and support couldn't clarify the steps"
+          "The Xero integration keeps desynchronizing and nobody in support knows how to fix it",
+          "Generated a 1099 with the wrong amount — had to escalate three times to get it corrected",
+          "Dashboard navigation is deeply confusing; took weeks to understand basic payroll workflows"
         ]
       },
       {
-        "category": "Country Coverage Gaps & Compliance Inconsistencies",
+        "category": "Compliance & Legal Errors",
+        "severity": "Medium",
+        "percentage": "14%",
+        "description": "Some users report that Deel made errors in local compliance classifications, tax filings, or contract structures — creating legal risk for both the hiring company and the worker. This is especially concerning given Deel's core value proposition is compliance assurance.",
+        "examples": [
+          "Deel misclassified our worker in Brazil which triggered a government audit",
+          "Contract generated by Deel had clauses that were not compliant with local labor law in Germany",
+          "Tax forms submitted on our behalf had incorrect entity information — took months to correct"
+        ]
+      },
+      {
+        "category": "Account Manager Turnover & Continuity",
         "severity": "Medium",
         "percentage": "12%",
-        "description": "While Deel markets itself as covering 150+ countries, users in less common markets report inadequate local compliance knowledge, outdated documentation, and slow turnaround on country-specific questions. Some countries require third-party partners whose quality is inconsistent.",
+        "description": "High internal churn at Deel means clients frequently lose their dedicated account managers. New managers lack context on client history, leading to repeated onboarding friction and loss of institutional knowledge.",
         "examples": [
-          "Deel's EOR in our target country was a local partner with zero communication",
-          "Compliance docs for our employee in Vietnam were months out of date",
-          "Took 6 weeks to get an answer on mandatory benefits in Indonesia"
+          "We're on our fourth account manager in 18 months — each one has no idea about our setup",
+          "After our CSM left, it took 3 weeks to get assigned a new one and nothing was handed over properly",
+          "The high turnover inside Deel bleeds into our experience — we feel like we're starting over constantly"
         ]
       }
     ],
     "customerQuotes": [
       {
-        "quote": "We've been waiting 9 days for a response on a failed payroll run. This is unacceptable when people's salaries are on the line.",
-        "source": "G2",
-        "topic": "Customer Support / Payroll Delay"
-      },
-      {
-        "quote": "The platform looked great in the demo but the actual product is full of bugs. Documents disappear, invoices get duplicated, and every fix requires a support ticket that takes forever.",
-        "source": "G2",
-        "topic": "Platform Reliability"
-      },
-      {
-        "quote": "My account got frozen for 'compliance review' and nobody could tell me what that meant or how long it would take. I was completely unable to access my earnings.",
-        "source": "Trustpilot",
-        "topic": "Account Freeze / Payment Hold"
-      },
-      {
-        "quote": "Deel keeps advertising 'transparent pricing' but by the time you add withdrawal fees, conversion rates, and compliance costs, it's far from transparent.",
+        "quote": "Deel is great when everything works, but the moment something goes wrong, you're completely on your own. Support tickets go into a black hole.",
         "source": "Reddit (r/remotework)",
-        "topic": "Pricing Transparency"
-      },
-      {
-        "quote": "As someone who manages contractors in 12 countries, the lack of a dedicated account manager makes every small issue feel like climbing a mountain. You get a different support rep every time who has no context.",
-        "source": "G2",
-        "topic": "Account Management / Support Continuity"
-      },
-      {
-        "quote": "Tried to terminate an EOR contract and it turned into a 4-month nightmare with costs nobody warned us about. The documentation on country-specific rules is really lacking.",
-        "source": "Reddit (r/digitalnomad)",
-        "topic": "Offboarding Complexity"
-      },
-      {
-        "quote": "Their Twitter support account responds faster than their actual support team. That tells you everything.",
-        "source": "Twitter/X",
         "topic": "Customer Support"
       },
       {
-        "quote": "High churn inside their support team means you're constantly re-explaining your situation. It's exhausting.",
-        "source": "Glassdoor",
-        "topic": "Internal Turnover Impacting Service"
+        "quote": "They held my payment for 12 days with zero communication. I had bills to pay and literally no way to get a human on the phone.",
+        "source": "Trustpilot",
+        "topic": "Payment Delays"
+      },
+      {
+        "quote": "The sales pitch was flawless. The reality after signing was a different product. Features we were promised weren't ready, and fees we weren't told about started appearing.",
+        "source": "G2",
+        "topic": "Pricing Opacity"
+      },
+      {
+        "quote": "We specifically chose Deel for compliance peace of mind. Then they misclassified one of our contractors and we had to deal with the fallout ourselves.",
+        "source": "G2",
+        "topic": "Compliance Errors"
+      },
+      {
+        "quote": "Third account manager in a year. I have to re-explain our entire company structure every time. It's exhausting and wastes hours of our HR team's time.",
+        "source": "Reddit (r/humanresources)",
+        "topic": "Account Manager Turnover"
+      },
+      {
+        "quote": "The withdrawal fees are a joke. They don't show them upfront and contractors end up getting less than expected every single month.",
+        "source": "Twitter/X",
+        "topic": "Hidden Fees"
+      },
+      {
+        "quote": "Dashboard feels like it was built by 10 different teams who never talked to each other. Basic tasks take way too many clicks.",
+        "source": "G2",
+        "topic": "Platform UX"
       }
     ],
     "topThemes": [
       {
-        "theme": "Support Responsiveness",
+        "theme": "Support Responsiveness Gap",
         "frequency": "Very High",
-        "detail": "Across every platform reviewed, slow or absent customer support is the single most cited complaint. The absence of dedicated account managers for mid-market clients and heavy reliance on chatbots for initial contact leaves users stuck during critical payroll and compliance moments."
+        "detail": "Across every platform, the gap between support promises and actual response time is the single most cited frustration. Enterprise clients expect SLAs; Deel frequently fails to meet them, especially for non-English-speaking users."
       },
       {
-        "theme": "Payment Reliability for Contractors",
+        "theme": "Payment Reliability & Trust",
         "frequency": "High",
-        "detail": "Contractors—Deel's end users—frequently report delayed payments, frozen accounts, and inadequate communication during holds. This creates trust issues and can cause real financial harm, leading to public complaints on Twitter/X and Reddit."
+        "detail": "Contractors and EOR employees rank payment reliability as their top concern. Unexplained holds and delays create financial hardship and erode loyalty, often driving users to competitors like Remote or Rippling."
       },
       {
-        "theme": "Pricing Opacity",
+        "theme": "Pricing Transparency",
         "frequency": "High",
-        "detail": "The gap between marketed pricing and actual total cost is a recurring frustration. Withdrawal fees, conversion spreads, partner fees in certain countries, and mid-contract pricing changes are among the cited causes."
+        "detail": "The disconnect between sales-quoted pricing and actual billing is a recurring theme. Withdrawal fees, FX margins, and add-on charges surface as surprise line items that damage post-sale satisfaction."
       },
       {
-        "theme": "Platform Bugs & Reliability",
-        "frequency": "High",
-        "detail": "Product stability issues—including lost documents, duplicate payments, incorrect tax form generation, and dashboard inaccuracies—undermine trust in the platform for core HR and payroll workflows."
+        "theme": "Rapid Scaling vs. Service Quality",
+        "frequency": "Medium-High",
+        "detail": "Reviewers on Glassdoor and Reddit note that Deel's hypergrowth has outpaced its operational infrastructure, leading to inconsistent service quality, internal disorganization, and high staff turnover impacting clients."
       },
       {
-        "theme": "Offboarding & Termination Friction",
+        "theme": "Compliance Accuracy Concerns",
         "frequency": "Medium",
-        "detail": "Both employers and contractors report that ending relationships via Deel is more complex and costly than expected. Country-specific requirements are poorly documented and support during this phase is inconsistent."
+        "detail": "Given that compliance is Deel's core value proposition, errors in this area carry outsized reputational damage. Users in Germany, Brazil, and Southeast Asia report localization and classification mistakes."
       },
       {
-        "theme": "Global Coverage Quality Inconsistency",
+        "theme": "Platform Complexity for SMBs",
         "frequency": "Medium",
-        "detail": "While Deel advertises broad country coverage, users in emerging or less-served markets report inconsistent compliance quality, reliance on third-party EOR partners with limited accountability, and outdated local knowledge."
+        "detail": "Smaller companies without dedicated HR teams find Deel's platform overwhelming. The learning curve, combined with limited proactive onboarding, leads to user errors and frustration early in the relationship."
       }
     ],
     "opportunityGaps": [
-      "Dedicated account management tiers for SMB and mid-market clients would address the most frequently cited pain point around support continuity and responsiveness",
-      "A fully transparent, all-in pricing calculator that includes withdrawal fees, currency conversion costs, and country-specific compliance add-ons before contract signing",
-      "A self-service offboarding and contract termination workflow with clear country-specific guidance, cost estimates, and timelines",
-      "Proactive payment status notifications and SLA commitments for contractor payouts, with a human escalation path for delays exceeding 48 hours",
-      "An internal knowledge base or compliance wiki by country, publicly accessible, to reduce support ticket volume for standard questions",
-      "A contractor-facing trust portal showing payment processing status in real time to reduce anxiety and support requests during processing windows",
-      "Competitor differentiation opportunity on platform stability—investing in a public status page and bug bounty program could build trust among technically sophisticated buyers",
-      "White-glove onboarding and a dedicated CSM for clients managing 20+ workers to reduce early churn driven by setup frustrations"
+      "Competitors can differentiate with guaranteed SLA-backed support and dedicated 24/7 live human assistance for payroll emergencies",
+      "Fully transparent, all-inclusive pricing with no withdrawal or conversion fees would directly address Deel's most cited weakness",
+      "A simpler, SMB-friendly UX with guided onboarding workflows could capture clients who find Deel too complex",
+      "Proactive compliance monitoring with human review checkpoints would appeal to risk-averse enterprise clients burned by Deel's classification errors",
+      "Account continuity guarantees — such as named CSM backup coverage and structured handover protocols — would address turnover-related frustrations",
+      "Faster, more reliable payment rails with real-time status tracking and proactive alerts would win contractors currently switching away due to payment anxiety",
+      "Localized support teams in key markets (LATAM, SEA, Germany) could capture users who feel underserved by Deel's English-centric support model"
     ]
   },
   "Remote": {
     "companyName": "Remote.com",
     "website": "https://remote.com",
     "industry": "HR Technology / Employer of Record (EOR) / Global Payroll",
-    "summary": "Remote.com faces recurring complaints around slow and inconsistent customer support, unexpected fees and billing transparency issues, and payroll errors or delays that impact contractor and employee payments. Users also report a clunky platform UX and difficulties offboarding or terminating contracts, making it a frustrating experience for companies scaling globally.",
+    "summary": "Remote.com faces consistent criticism around slow and error-prone payroll processing, unresponsive customer support with long resolution times, and a clunky platform UI with frequent bugs. Contractors and employees in certain countries report payment delays and compliance issues, while businesses cite high pricing relative to competitors and a lack of dedicated account management for smaller clients.",
     "overallSentiment": 5,
     "reviewSources": [
       {
         "source": "G2",
         "rating": "4.2/5",
-        "reviewCount": "500+",
+        "reviewCount": "600+",
         "mainComplaints": [
           "Slow customer support response times",
-          "Payroll processing delays and errors",
-          "Platform UI is confusing and not intuitive",
-          "Expensive pricing compared to competitors",
-          "Onboarding process takes too long"
+          "Payroll errors and delays",
+          "Limited integrations with third-party HRIS tools",
+          "Onboarding process can be confusing and lengthy",
+          "Pricing is high for small teams"
         ]
       },
       {
         "source": "Trustpilot",
         "rating": "3.1/5",
-        "reviewCount": "300+",
+        "reviewCount": "400+",
         "mainComplaints": [
-          "Payment delays to contractors and employees",
-          "Poor communication during disputes",
-          "Billing surprises and hidden fees",
-          "Difficulty canceling or offboarding employees",
-          "Unresponsive account managers"
+          "Payment delays for contractors and employees",
+          "Poor customer service — tickets go unanswered for days",
+          "Billing disputes and unexpected charges",
+          "Difficulty offboarding or canceling contracts",
+          "Lack of transparency in invoicing"
         ]
       },
       {
         "source": "Glassdoor",
         "rating": "3.6/5",
-        "reviewCount": "200+",
+        "reviewCount": "300+",
         "mainComplaints": [
-          "Internal disorganization post rapid growth",
-          "Lack of clarity in internal processes",
+          "Internal disorganization and lack of clear processes",
+          "Rapid growth led to management chaos",
           "High employee turnover affecting service quality",
-          "Over-promising and under-delivering to customers"
+          "Promises made during hiring not fulfilled",
+          "Poor communication from leadership"
         ]
       },
       {
         "source": "Reddit",
         "rating": "Mixed",
-        "reviewCount": "Multiple threads on r/digitalnomad, r/freelance, r/remotework",
+        "reviewCount": "Numerous threads across r/remotework, r/freelance, r/entrepreneur",
         "mainComplaints": [
-          "Contractors report late salary payments",
-          "Support tickets go unanswered for days or weeks",
-          "Unexpected deductions from paychecks",
-          "Complicated tax document retrieval",
-          "Better alternatives exist at lower cost (Deel, Rippling)"
+          "Contractors report receiving payments late or incorrectly",
+          "Support team gives inconsistent answers",
+          "Platform bugs around invoicing and document uploads",
+          "Users switching to Deel or Rippling due to frustration",
+          "Country-specific compliance gaps reported"
         ]
       },
       {
         "source": "Twitter/X",
-        "rating": "Mixed/Negative",
-        "reviewCount": "Numerous public complaints",
+        "rating": "Mixed-Negative",
+        "reviewCount": "Ongoing complaints visible publicly",
         "mainComplaints": [
-          "Users publicly tagging Remote.com about unresolved payment issues",
-          "Frustration with generic support responses",
-          "Contractors warning others about payment delays",
-          "Complaints about lack of dedicated account manager access"
+          "Public callouts for unresolved support tickets",
+          "Payroll delays causing hardship for remote workers",
+          "Users tagging Remote.com repeatedly with no resolution",
+          "Negative comparisons to Deel and Papaya Global",
+          "Frustration with automated support responses"
         ]
       }
     ],
@@ -291,143 +287,145 @@
         "category": "Customer Support Quality",
         "severity": "High",
         "percentage": "38%",
-        "description": "The most commonly cited complaint across all platforms is slow, unhelpful, or unresponsive customer support. Many users report waiting days for ticket responses, being bounced between agents, and receiving generic copy-paste answers that don't resolve issues.",
+        "description": "The most frequently cited issue across all platforms is poor customer support. Users report long wait times (often 3–7+ days), generic responses, difficulty reaching humans, and tickets being closed without resolution. Smaller clients feel deprioritized compared to enterprise accounts.",
         "examples": [
-          "Support ticket open for 2 weeks with no resolution on payroll discrepancy",
-          "Chat support gives generic answers and escalates to email with no follow-up",
-          "Account managers change frequently and new ones lack context of the account"
+          "Support ticket open for 2 weeks with no resolution for a payroll discrepancy",
+          "Repeated follow-ups required before getting a substantive response",
+          "Chat support gives contradictory answers to the same question"
         ]
       },
       {
-        "category": "Payroll Accuracy & Payment Delays",
+        "category": "Payroll Accuracy & Timeliness",
         "severity": "High",
-        "percentage": "28%",
-        "description": "Contractors and employees report late payments, incorrect salary amounts, and missing payments with little to no proactive communication from Remote.com. These errors cause significant financial distress for workers depending on timely pay.",
+        "percentage": "30%",
+        "description": "Contractors and EOR employees frequently report payment delays, incorrect salary amounts, and tax withholding errors. These issues are especially prevalent for users in Latin America, Southeast Asia, and parts of Europe. Payroll errors can take weeks to correct.",
         "examples": [
-          "Salary delayed by 10+ days with no explanation provided",
-          "Incorrect currency conversion leading to underpayment",
-          "Missing bonus payments that took months to resolve"
+          "Employee in Brazil received incorrect net pay for three consecutive months",
+          "Contractor invoice paid 12 days late with no proactive communication",
+          "Wrong currency conversion applied leading to underpayment"
         ]
       },
       {
-        "category": "Pricing Transparency & Hidden Fees",
-        "severity": "High",
-        "percentage": "18%",
-        "description": "Customers report being surprised by fees not clearly outlined during the sales process, including deposit requirements, country-specific surcharges, and unexpected invoice line items. The total cost of using Remote.com is frequently cited as higher than initially communicated.",
-        "examples": [
-          "Charged a deposit equivalent to one month's salary with no prior notice",
-          "Country-specific fees added to invoice without explanation",
-          "Annual contract locked in before full fee structure was disclosed"
-        ]
-      },
-      {
-        "category": "Platform UX & Usability",
+        "category": "Platform UX & Bugs",
         "severity": "Medium",
-        "percentage": "10%",
-        "description": "Users describe the platform as unintuitive, slow to load, and lacking key features compared to competitors. Common complaints include difficulty navigating contractor vs. employee workflows, poor document management, and limited reporting capabilities.",
+        "percentage": "18%",
+        "description": "The Remote platform is described as unintuitive, with a steep learning curve for HR admins. Users report bugs in document uploads, invoice generation, time-off tracking, and benefits management. The mobile experience is considered particularly weak.",
         "examples": [
-          "Generating payroll reports requires too many manual steps",
-          "Document upload portal frequently errors out",
-          "Cannot easily view historical invoices without contacting support"
+          "Time-off requests disappearing after submission",
+          "Document upload failing repeatedly without clear error messages",
+          "Benefits enrollment portal showing incorrect plan options"
+        ]
+      },
+      {
+        "category": "Pricing & Value",
+        "severity": "Medium",
+        "percentage": "8%",
+        "description": "Remote.com is perceived as expensive, particularly for startups and SMBs hiring in only one or two countries. The EOR fees ($599–$799/employee/month) are competitive at enterprise scale but feel steep for smaller organizations who don't use the full feature set.",
+        "examples": [
+          "Startup with 3 contractors switched to Deel citing 30% cost savings",
+          "Hidden fees discovered in invoices not clearly explained upfront",
+          "Minimum contract terms feel inflexible for project-based hiring"
         ]
       },
       {
         "category": "Offboarding & Contract Termination",
         "severity": "Medium",
         "percentage": "6%",
-        "description": "Businesses report that ending engagements through Remote.com is slow and bureaucratic. The offboarding process lacks clarity, leading to over-billing during notice periods and delays in final payouts to terminated employees.",
+        "description": "Multiple users report difficulty offboarding employees or terminating EOR contracts, with slow processing, unclear final payment timelines, and compliance uncertainty around termination in specific countries.",
         "examples": [
-          "Billed for an extra month after termination was submitted",
-          "Employee offboarding took 6 weeks when 2 weeks were expected",
-          "Final payslips delayed causing issues for departing employees"
+          "Termination in Germany took 3 months longer than expected due to process delays",
+          "Final paycheck calculation was incorrect after contractor offboarding",
+          "No clear self-serve workflow to cancel services"
         ]
       }
     ],
     "customerQuotes": [
       {
-        "quote": "We've been waiting 3 weeks for a response on a payroll error that affected our employee's rent payment. Remote.com just keeps telling us it's 'being escalated.'",
-        "source": "Reddit (r/remotework)",
-        "topic": "Payroll Errors & Support Delays"
+        "quote": "We've had payroll issues for three months straight. Every time we contact support, we get a different answer. We're switching to Deel.",
+        "source": "Reddit (r/entrepreneur)",
+        "topic": "Payroll errors and support inconsistency"
       },
       {
-        "quote": "The sales process was smooth but once we signed up, it felt like we were on our own. Support is basically a ticket black hole.",
-        "source": "G2",
-        "topic": "Post-Sales Support Quality"
-      },
-      {
-        "quote": "They charged us a deposit we never knew about, and when we asked for clarification, it took 5 days to get a response that still didn't fully explain it.",
-        "source": "Trustpilot",
-        "topic": "Billing Transparency"
-      },
-      {
-        "quote": "Switched from Deel to Remote thinking the pricing would be better for our team size. Ended up paying more due to fees we didn't anticipate. Going back to Deel.",
-        "source": "Reddit (r/digitalnomad)",
-        "topic": "Pricing vs. Competitors"
-      },
-      {
-        "quote": "I'm a contractor and my payment was late again this month. Third time in 6 months. Remote.com blames 'local banking delays' every time but my colleagues using Deel never have this issue.",
+        "quote": "Opened a ticket 10 days ago about an incorrect invoice. Still waiting. Meanwhile my employee is asking me where their money is.",
         "source": "Twitter/X",
-        "topic": "Contractor Payment Reliability"
+        "topic": "Support response time"
       },
       {
-        "quote": "The platform itself is clunky. Finding historical documents or generating reports feels like it was designed by someone who never ran payroll before.",
+        "quote": "The platform looks polished but it's riddled with bugs. Time-off requests just vanish. It's embarrassing for a company at this price point.",
         "source": "G2",
-        "topic": "Platform Usability"
+        "topic": "Platform reliability"
       },
       {
-        "quote": "Offboarding an employee was a nightmare. The process dragged on for over a month and we kept getting billed the whole time even though we'd submitted termination paperwork.",
+        "quote": "Remote.com is great in concept but the execution is rough. Onboarding took 6 weeks when they promised 2, and our employee had no idea what was happening.",
         "source": "Trustpilot",
-        "topic": "Offboarding Process"
+        "topic": "Onboarding delays"
+      },
+      {
+        "quote": "As a contractor, I've had my payments late 4 times in 6 months. The company I work for uses Remote and they feel helpless too. It's affecting my trust.",
+        "source": "Reddit (r/freelance)",
+        "topic": "Contractor payment reliability"
+      },
+      {
+        "quote": "For a company that sells itself as 'the future of work,' their internal processes feel very 2010. No dedicated account manager, no proactive updates.",
+        "source": "G2",
+        "topic": "Account management and communication"
       }
     ],
     "topThemes": [
       {
-        "theme": "Support Responsiveness",
+        "theme": "Slow & Unresponsive Support",
         "frequency": "Very High",
-        "detail": "Slow ticket response times, frequent agent turnover, and lack of proactive communication are the dominant complaints across every platform reviewed. Users consistently describe a post-sale drop in attention and helpfulness."
+        "detail": "Appears in nearly 40% of negative reviews across all platforms. Users consistently report multi-day wait times, ticket closures without resolution, and difficulty escalating issues to senior support staff."
       },
       {
-        "theme": "Payment Reliability for Contractors",
+        "theme": "Payroll & Payment Delays",
         "frequency": "High",
-        "detail": "Late and incorrect payments to contractors and employees are a recurring, serious issue. This directly erodes trust and is frequently compared unfavorably to competitors like Deel and Rippling."
+        "detail": "A dominant theme especially on Trustpilot and Reddit, where contractors and EOR employees detail recurring late or incorrect payments, with slow correction processes that cause financial hardship."
       },
       {
-        "theme": "Pricing Opacity",
+        "theme": "Platform Bugs & Poor UX",
         "frequency": "High",
-        "detail": "Customers feel misled about total costs. Deposits, country-specific fees, and surcharges that were not clearly communicated during sales are a major driver of negative reviews and churn."
+        "detail": "HR admins and end users cite a non-intuitive interface, recurring bugs in core workflows (invoicing, time-off, document management), and a weak mobile app experience."
       },
       {
-        "theme": "Competitor Comparison (Deel, Rippling)",
+        "theme": "High Cost for Small Teams",
         "frequency": "Medium",
-        "detail": "A significant portion of negative reviews explicitly mention switching to or from Deel or Rippling, often citing better support, more transparent pricing, or more reliable payroll as reasons for leaving Remote.com."
+        "detail": "SMBs and startups frequently mention that Remote's pricing model doesn't scale down well, making it difficult to justify for companies with fewer than 10 international hires."
       },
       {
-        "theme": "Platform Maturity",
+        "theme": "Lack of Dedicated Account Management",
         "frequency": "Medium",
-        "detail": "The platform is viewed as less polished and feature-rich compared to competitors. Reporting, document management, and workflow automation are areas where users feel Remote.com lags behind."
+        "detail": "Smaller clients report feeling like second-class customers with no named point of contact, forcing them to rely on a generic support queue for all issues regardless of severity."
       },
       {
-        "theme": "Rapid Growth Pains",
+        "theme": "Country Coverage Gaps",
         "frequency": "Medium",
-        "detail": "Both internal Glassdoor reviews and customer feedback suggest Remote.com scaled its customer base faster than its support and operational infrastructure could handle, leading to degraded service quality."
+        "detail": "Despite marketing broad global coverage, users in certain countries report compliance knowledge gaps, slower onboarding in those regions, and limited local legal guidance."
+      },
+      {
+        "theme": "Competitor Switching Intent",
+        "frequency": "Medium",
+        "detail": "Deel, Rippling, and Papaya Global are frequently named as alternatives users are switching to, primarily driven by better support responsiveness and pricing flexibility."
       }
     ],
     "opportunityGaps": [
-      "Offer dedicated account managers with guaranteed SLA response times as a differentiator for mid-market and enterprise clients",
-      "Provide a fully transparent, upfront fee calculator before contract signing to eliminate billing surprise complaints",
-      "Build a self-serve offboarding workflow so businesses can initiate and track terminations without relying on support tickets",
-      "Develop a contractor payment reliability dashboard showing real-time payment status to reduce anxiety and inbound support volume",
-      "Invest in platform UX improvements, particularly around payroll reporting, document retrieval, and invoice history",
-      "Create a proactive payroll error notification system that alerts both employers and employees before payday if an issue is detected",
-      "Offer a lower-cost, streamlined contractor-only product to better compete with Deel's contractor pricing in price-sensitive markets",
-      "Establish a public status page and proactive communication channel for country-specific banking or payroll delays to build trust during disruptions"
+      "Dedicated account managers for mid-market clients — a gap competitors like Deel are filling with white-glove service tiers",
+      "Proactive payroll error detection and real-time payment status notifications to reduce support ticket volume",
+      "Faster support SLAs (sub-24-hour) with clear escalation paths for payroll-critical issues",
+      "Transparent, itemized invoicing with no surprise fees — a major trust driver for finance teams",
+      "Improved self-serve offboarding and contractor termination workflows to reduce dependency on support",
+      "A lower-cost or flexible pricing tier targeting startups with 1–5 international hires to compete with lighter-weight tools like Plane or Oyster",
+      "Better mobile app experience for contractors and remote employees managing their own profiles and invoices",
+      "Stronger localized compliance expertise and visible country-specific legal guides within the platform",
+      "Integration marketplace expansion (BambooHR, Workday, HiBob) to reduce data silos for HR teams",
+      "Community forum or customer education hub to reduce repetitive support queries and improve onboarding success"
     ]
   },
   "OysterHR": {
     "companyName": "Oyster HR",
     "website": "https://oysterhr.com",
-    "industry": "Global HR & Employer of Record (EOR) / HR Technology",
-    "summary": "Oyster HR faces consistent criticism around high pricing relative to competitors, slow or unresponsive customer support, and platform reliability issues. Users frequently report billing discrepancies, delayed onboarding for international hires, and a lack of transparency in country-specific compliance costs, making it a challenging option for cost-sensitive or fast-moving teams.",
+    "industry": "HR Technology / Employer of Record (EOR) / Global Employment Platform",
+    "summary": "Oyster HR faces consistent criticism around high pricing relative to competitors, slow and unresponsive customer support, and platform bugs or UX issues that frustrate HR teams managing global workforces. Users also report onboarding delays and compliance gaps in certain countries, making it less reliable for fast-scaling companies with complex international hiring needs.",
     "overallSentiment": 5,
     "reviewSources": [
       {
@@ -436,10 +434,10 @@
         "reviewCount": "200+",
         "mainComplaints": [
           "Slow customer support response times",
-          "High and opaque pricing structure",
-          "Platform bugs and UI inconsistencies",
-          "Delayed contractor/employee onboarding",
-          "Limited local payroll visibility"
+          "High platform fees compared to competitors",
+          "Limited country-specific customization",
+          "Onboarding process can be lengthy and confusing",
+          "Invoice and payroll errors reported"
         ]
       },
       {
@@ -447,46 +445,46 @@
         "rating": "3.8/5",
         "reviewCount": "150+",
         "mainComplaints": [
-          "Poor communication during offboarding",
+          "Poor communication during employee offboarding",
           "Unexpected fees and billing surprises",
-          "Customer service difficult to reach",
-          "Errors in payroll processing",
-          "Slow resolution of compliance questions"
+          "Support tickets left unresolved for weeks",
+          "Platform glitches affecting payroll processing",
+          "Difficulty getting dedicated account managers"
+        ]
+      },
+      {
+        "source": "Glassdoor",
+        "rating": "3.9/5",
+        "reviewCount": "300+",
+        "mainComplaints": [
+          "Internal processes described as chaotic for a remote-first company",
+          "High employee turnover affecting service continuity",
+          "Lack of career growth opportunities",
+          "Over-promised equity and compensation adjustments",
+          "Frequent strategy pivots confuse both employees and customers"
         ]
       },
       {
         "source": "Reddit",
         "rating": "Mixed",
-        "reviewCount": "50+ threads",
+        "reviewCount": "Multiple threads on r/remotework, r/HRtech, r/entrepreneur",
         "mainComplaints": [
-          "Expensive compared to Deel and Remote",
-          "Support takes days or weeks to respond",
-          "Limited country coverage vs. competitors",
-          "Users report being passed between support agents without resolution",
-          "Onboarding process is cumbersome and manual"
-        ]
-      },
-      {
-        "source": "Glassdoor",
-        "rating": "3.6/5",
-        "reviewCount": "300+",
-        "mainComplaints": [
-          "Rapid scaling led to internal disorganization",
-          "Lack of clear career progression",
-          "High employee turnover affecting customer service quality",
-          "Management decisions feel reactive",
-          "Product roadmap frequently shifts without clear communication"
+          "Expensive compared to Deel, Remote.com, and Rippling",
+          "Customer support described as unresponsive or unhelpful",
+          "Users report being locked into contracts with poor exit options",
+          "Compliance issues in emerging markets",
+          "Payroll delays around holidays causing employee frustration"
         ]
       },
       {
         "source": "Twitter/X",
         "rating": "Mixed",
-        "reviewCount": "Various threads",
+        "reviewCount": "Various mentions",
         "mainComplaints": [
-          "Public complaints about unresolved support tickets",
-          "Users tagging Oyster publicly after weeks of no response",
-          "Concerns about accuracy of country compliance guidance",
-          "Negative comparisons to Deel and Remote.com"
+          "Public complaints about slow support escalation",
+          "Users switching to Deel or Remote after bad experiences",
+          "Criticism of price increases with no added value",
+          "Negative sentiment around contractor vs employee misclassification confusion"
         ]
       }
     ],
@@ -495,197 +493,206 @@
         "category": "Customer Support & Responsiveness",
         "severity": "High",
         "percentage": "38%",
-        "description": "The most pervasive complaint across all platforms is that Oyster's customer support is slow, understaffed, and often unhelpful. Users report waiting days or weeks for responses to urgent payroll and compliance questions, and being bounced between multiple agents without resolution.",
+        "description": "The most frequently cited complaint across all platforms is slow, unresponsive, or unhelpful customer support. Users report waiting days or weeks for resolution on payroll and compliance issues, which are time-sensitive by nature.",
         "examples": [
-          "Opened a support ticket about a payroll error and waited 11 days for a response",
-          "Support told me to wait and then reassigned my case to a new agent who had no context",
-          "Had to tweet at them publicly to finally get a response to a 3-week-old ticket"
+          "Support tickets about payroll errors going unanswered for 2+ weeks",
+          "No dedicated account manager for mid-tier plans",
+          "Escalation process unclear and ineffective",
+          "Automated responses that don't address specific issues"
         ]
       },
       {
-        "category": "Pricing & Cost Transparency",
+        "category": "Pricing & Value for Money",
         "severity": "High",
-        "percentage": "28%",
-        "description": "Many customers are frustrated by Oyster's pricing model, which they describe as expensive relative to competitors like Deel and Remote, and opaque when it comes to country-specific compliance costs, benefits markups, and off-cycle payment fees.",
+        "percentage": "30%",
+        "description": "Oyster HR is widely regarded as one of the more expensive EOR platforms on the market, with many users feeling the pricing does not align with the level of service or platform capability delivered. Hidden fees and unexpected charges are also cited.",
         "examples": [
-          "We were quoted one price and invoiced significantly more due to mandatory local benefits we weren't told about",
-          "Much more expensive than Deel for the same countries — hard to justify the cost",
-          "Hidden fees for terminations and off-cycle payments were a nasty surprise"
+          "Per-employee fees cited as significantly higher than Deel or Remote.com",
+          "Unexpected charges for country-specific compliance add-ons",
+          "Minimum contract commitments seen as inflexible for startups",
+          "Pricing not transparent until deep in the sales process"
         ]
       },
       {
-        "category": "Platform Reliability & UX",
+        "category": "Platform Bugs & UX Issues",
         "severity": "Medium",
         "percentage": "18%",
-        "description": "Users report recurring bugs in the dashboard, documents not loading properly, and an overall clunky user experience. Several users note that the platform feels underdeveloped compared to its competitors.",
+        "description": "Users report a range of technical issues including payroll processing bugs, broken integrations, and a non-intuitive user interface that requires significant training for HR teams to navigate effectively.",
         "examples": [
-          "The platform frequently has UI glitches that make it hard to complete basic tasks",
-          "Document signing workflows break randomly and require a support ticket to fix",
-          "The dashboard doesn't clearly show payroll breakdowns by country"
+          "Payslip generation errors reported in multiple countries",
+          "HRIS integrations with BambooHR and Workday described as unreliable",
+          "Dashboard UI described as confusing and outdated",
+          "Document uploads failing without clear error messages"
         ]
       },
       {
-        "category": "Onboarding & Time-to-Hire",
+        "category": "Onboarding & Offboarding Process",
         "severity": "Medium",
-        "percentage": "10%",
-        "description": "Companies report that onboarding international employees through Oyster takes significantly longer than expected, sometimes weeks beyond projected timelines, impacting their ability to bring on talent quickly.",
+        "percentage": "9%",
+        "description": "New employee onboarding through Oyster can take longer than expected, and offboarding processes are described as poorly communicated, especially for employees in countries with strict labor laws.",
         "examples": [
-          "Was told onboarding would take 2 weeks, it took 6 with no proactive updates",
-          "New hire's start date had to be pushed back twice due to delays on Oyster's end",
-          "No clear visibility into where things are stuck in the onboarding workflow"
+          "Onboarding taking 4-6 weeks in some markets instead of advertised 2 weeks",
+          "Terminated employees left in limbo on benefits mid-exit",
+          "Country-specific legal requirements not proactively flagged"
         ]
       },
       {
-        "category": "Country Coverage & Compliance Depth",
+        "category": "Country Coverage & Compliance Gaps",
         "severity": "Medium",
-        "percentage": "6%",
-        "description": "Some users report that Oyster's coverage in certain countries is limited or that compliance guidance is surface-level, requiring customers to do their own due diligence in markets where Oyster claims to operate.",
+        "percentage": "5%",
+        "description": "While Oyster covers 180+ countries, users in emerging or less common markets report weaker support, slower compliance updates, and less local expertise compared to EOR competitors with stronger regional presences.",
         "examples": [
-          "Oyster said they cover our target country but couldn't answer specific compliance questions",
-          "Their guidance on local mandatory benefits turned out to be incomplete",
-          "Fewer countries supported compared to Deel when we compared coverage maps"
+          "Limited support for nuanced labor laws in Southeast Asia and Africa",
+          "Compliance updates lagging behind regulatory changes",
+          "Local in-country support teams described as thin"
         ]
       }
     ],
     "customerQuotes": [
       {
-        "quote": "We had a payroll error that affected our employee's salary and it took over two weeks to get a resolution. That's completely unacceptable when someone's livelihood is involved.",
+        "quote": "We've been waiting 3 weeks for a resolution on a payroll error for one of our employees in Brazil. Their support team just keeps sending templated replies with no real update.",
         "source": "G2",
         "topic": "Customer Support"
       },
       {
-        "quote": "Oyster is significantly more expensive than Deel for the exact same countries. We switched and saved over $400/month per employee.",
-        "source": "Reddit",
+        "quote": "Oyster is easily the most expensive EOR we've used. We switched to Deel and saved about 30% annually with better service.",
+        "source": "Reddit (r/remotework)",
         "topic": "Pricing"
       },
       {
-        "quote": "The platform looks good in demos but in practice it's buggy and the UX is frustrating. Simple things like downloading a contract shouldn't require a support ticket.",
+        "quote": "The platform looks nice on the surface but there are constant little bugs. Payslips come out wrong, documents don't upload properly. For the price they charge, it's unacceptable.",
         "source": "Trustpilot",
         "topic": "Platform Reliability"
       },
       {
-        "quote": "We were promised a 2-week onboarding timeline. It ended up being 5 weeks and we had to keep chasing them for updates. Our new hire was understandably frustrated.",
+        "quote": "We had a really rough offboarding experience. Our employee in Germany wasn't properly notified about the end of their benefits and it created a big mess. Oyster's team was nowhere to be found during that period.",
         "source": "G2",
-        "topic": "Onboarding Delays"
+        "topic": "Offboarding"
       },
       {
-        "quote": "The hidden fees are real. Make sure you get everything in writing before you sign — there are compliance add-ons and benefits markups that don't show up in the initial quote.",
-        "source": "Reddit",
-        "topic": "Pricing Transparency"
-      },
-      {
-        "quote": "Support is essentially impossible to reach unless you escalate publicly on Twitter. That shouldn't be the way enterprise software works.",
+        "quote": "Switched from Oyster to Remote.com. The pricing difference is significant and the support is night and day. Oyster just couldn't justify the cost for us as a 20-person startup.",
         "source": "Twitter/X",
-        "topic": "Customer Support"
+        "topic": "Pricing & Competition"
       },
       {
-        "quote": "Great concept and mission but the execution leaves a lot to be desired. They scaled too fast and the customer experience suffered.",
+        "quote": "Onboarding our first employee in Nigeria took nearly 7 weeks. They kept asking for the same documents multiple times and nobody seemed to know who was responsible for what.",
         "source": "Trustpilot",
-        "topic": "Overall Experience"
+        "topic": "Onboarding Process"
+      },
+      {
+        "quote": "As an Oyster employee, the internal chaos is real. Customers experience it too because our processes change constantly and teams are stretched thin.",
+        "source": "Glassdoor",
+        "topic": "Internal Operations"
       }
     ],
     "topThemes": [
       {
-        "theme": "Slow & Unresponsive Support",
-        "frequency": "High",
-        "detail": "Across G2, Trustpilot, Reddit, and Twitter, slow support is the single most cited frustration. Users describe multi-week waits for urgent payroll and compliance issues, agents lacking context, and a general feeling of being deprioritized after the sale."
+        "theme": "Slow Customer Support",
+        "frequency": "Very High",
+        "detail": "Consistently the top complaint across G2, Trustpilot, and Reddit. Users in time-sensitive payroll and compliance situations find the lack of responsive support to be a critical operational risk."
       },
       {
-        "theme": "High and Opaque Pricing",
+        "theme": "High Cost vs. Perceived Value",
         "frequency": "High",
-        "detail": "Oyster is consistently described as one of the more expensive EOR providers, with users frequently comparing it unfavorably to Deel and Remote. The lack of upfront pricing transparency — particularly for country-specific benefits and termination fees — generates significant frustration."
+        "detail": "Oyster is frequently benchmarked against Deel, Remote.com, and Rippling. Many users report that switching to competitors saved meaningful budget without sacrificing quality, undermining Oyster's value proposition."
       },
       {
-        "theme": "Platform Bugs & Poor UX",
-        "frequency": "Medium",
-        "detail": "The Oyster platform is described as buggy and clunky by a meaningful subset of users. Issues include broken document workflows, unclear payroll breakdowns, and dashboard inconsistencies that create friction in day-to-day HR operations."
+        "theme": "Platform Reliability Issues",
+        "frequency": "Medium-High",
+        "detail": "Technical bugs, integration failures, and UX friction are recurring issues, particularly around payroll processing and document management."
       },
       {
         "theme": "Onboarding Delays",
         "frequency": "Medium",
-        "detail": "Multiple reviewers report that onboarding timelines routinely exceed what was promised, sometimes by weeks. The lack of proactive status updates during delays exacerbates frustration for both hiring managers and new employees."
+        "detail": "Onboarding timelines frequently exceed what was promised during the sales process, particularly in emerging markets, causing frustration for HR teams under pressure to get employees productive quickly."
       },
       {
-        "theme": "Internal Scaling Pains",
+        "theme": "Lack of Dedicated Account Management",
         "frequency": "Medium",
-        "detail": "Glassdoor reviews from employees suggest the company grew rapidly and is experiencing internal disorganization, high turnover in customer-facing roles, and unclear product direction — factors that directly impact service quality for customers."
+        "detail": "Users on standard plans report feeling like an anonymous ticket number rather than a valued customer. The absence of a named account manager is cited repeatedly as making issue resolution difficult."
       },
       {
-        "theme": "Competitive Disadvantage vs. Deel & Remote",
+        "theme": "Pricing Opacity",
         "frequency": "Medium",
-        "detail": "Oyster is frequently compared to Deel and Remote.com, often unfavorably on price, country coverage, and support quality. This competitive framing appears in Reddit threads, G2 comparisons, and Twitter conversations."
+        "detail": "Several reviewers note that the full cost of using Oyster only becomes clear after signing contracts, with add-on fees for specific countries or compliance needs emerging later in the relationship."
       }
     ],
     "opportunityGaps": [
-      "Competitors could differentiate by offering dedicated account managers or a guaranteed SLA (e.g., 4-hour response) for payroll and compliance issues — a clear gap Oyster leaves open",
-      "Transparent, all-inclusive pricing pages with country-specific cost calculators would directly address one of Oyster's top pain points",
-      "Faster and more automated onboarding workflows with real-time status tracking could win customers who have had bad experiences with Oyster's slow manual processes",
-      "Stronger compliance depth and documentation in emerging markets where Oyster's coverage is perceived as thin",
-      "A proactive customer success model (vs. reactive support ticketing) would appeal to mid-market buyers burned by Oyster's support experience",
-      "Better platform reliability and a more polished UX could attract design-sensitive buyers who find Oyster's interface frustrating",
-      "Offering competitive pricing tiers for startups and SMBs could capture the cost-sensitive segment Oyster is losing to Deel and Remote"
+      "Competitors could win Oyster customers by offering transparent, all-inclusive pricing with no hidden add-on fees — clearly marketed against Oyster's opaque model",
+      "A strong dedicated account management model for SMBs would directly address Oyster's most common complaint and be a compelling differentiator",
+      "Faster onboarding SLAs with money-back guarantees for timeline breaches could attract HR teams burned by Oyster's delays",
+      "Deeper local compliance expertise and in-country teams in emerging markets (Africa, Southeast Asia, LatAm) would fill a gap Oyster consistently underperforms in",
+      "Better HRIS integrations (BambooHR, Workday, HiBob) with documented uptime and reliability stats would appeal to ops-focused buyers comparing platforms",
+      "Offering a self-serve, lower-cost tier for startups would capture the budget-conscious segment that Oyster is currently losing to Deel and Remote.com",
+      "Proactive compliance monitoring with real-time country-specific regulatory alerts would differentiate against Oyster's reactive compliance model",
+      "A transparent, easy exit clause in contracts would reduce buyer anxiety and be a trust-building differentiator for risk-averse HR buyers"
     ]
   },
   "Rippling": {
     "companyName": "Rippling",
     "website": "https://rippling.com",
-    "industry": "HR, Payroll & Workforce Management SaaS",
-    "summary": "Rippling faces consistent criticism around its complex pricing structure and aggressive upselling, a steep learning curve for administrators, and unreliable customer support with slow response times. Users also report frequent bugs and integration issues, particularly around payroll accuracy and third-party app connections. While praised for its breadth of features, many small businesses find the platform overwhelming and cost-prohibitive compared to simpler alternatives.",
+    "industry": "HR & Workforce Management Software (HCM/HRIS)",
+    "summary": "Rippling receives frequent criticism for its complex and steep learning curve, aggressive sales tactics with opaque pricing, and poor customer support responsiveness. Users frequently report billing issues, contract lock-in difficulties, and a fragmented product experience when using modules beyond core HR and payroll.",
     "overallSentiment": 6,
     "reviewSources": [
       {
         "source": "G2",
         "rating": "4.8/5",
-        "reviewCount": "5,000+",
+        "reviewCount": "5,500+",
         "mainComplaints": [
-          "Expensive pricing with many features locked behind paywalls",
-          "Customer support is slow and often unhelpful",
-          "Steep learning curve for new admins",
-          "Occasional payroll errors and sync issues"
+          "Customer support is slow to respond and often unhelpful",
+          "Steep learning curve and complex UI for new admins",
+          "Pricing is opaque and expensive for small businesses",
+          "Frequent bugs and glitches with newer modules",
+          "Difficult to cancel or exit contracts"
         ]
       },
       {
         "source": "Trustpilot",
-        "rating": "3.9/5",
-        "reviewCount": "500+",
+        "rating": "2.8/5",
+        "reviewCount": "400+",
         "mainComplaints": [
-          "Poor customer service responsiveness",
-          "Billing disputes and unexpected charges",
-          "Difficult to cancel or downgrade subscription",
-          "Platform glitches during critical payroll cycles"
+          "Billing errors and incorrect payroll runs",
+          "Extremely difficult to reach support when issues arise",
+          "Cancellation process is described as a nightmare",
+          "Sales promises don't match actual product delivery",
+          "Long wait times for resolving tax filing errors"
         ]
       },
       {
         "source": "Glassdoor",
-        "rating": "3.8/5",
-        "reviewCount": "1,000+",
+        "rating": "3.9/5",
+        "reviewCount": "2,000+",
         "mainComplaints": [
-          "High-pressure sales culture internally",
-          "Rapid growth causing internal disorganization",
-          "Customer success team understaffed relative to customer base",
-          "Product releases sometimes feel rushed and undertested"
+          "High-pressure sales culture leading to poor customer outcomes",
+          "Rapid growth causing internal disorganization and support gaps",
+          "Product teams are stretched thin, leading to unpolished features",
+          "Work-life balance concerns affecting support team quality",
+          "High employee turnover in customer success roles"
         ]
       },
       {
         "source": "Reddit (r/humanresources, r/smallbusiness, r/payroll)",
         "rating": "Mixed",
-        "reviewCount": "200+ threads",
+        "reviewCount": "500+ threads",
         "mainComplaints": [
-          "Payroll tax filing errors that took months to resolve",
-          "Support tickets left open for weeks without resolution",
+          "Payroll errors that take weeks to resolve",
+          "Support tickets go unanswered for days",
           "Hidden fees discovered after signing contracts",
-          "Integration failures with QuickBooks and other accounting tools"
+          "IT module integrations break frequently",
+          "Onboarding process is overly complex for SMBs"
         ]
       },
       {
         "source": "Twitter/X",
-        "rating": "Mixed",
-        "reviewCount": "Ongoing mentions",
+        "rating": "Mixed-Negative",
+        "reviewCount": "1,000+ mentions",
         "mainComplaints": [
-          "Public complaints about unresolved payroll issues",
-          "Users calling out lack of phone support access",
-          "Frustration with onboarding delays",
-          "Criticism around abrupt feature deprecations"
+          "Public complaints about payroll failures going unresolved",
+          "Users tagging Rippling support with no response",
+          "Frustration over being upsold unnecessary modules",
+          "Complaints about PEO service quality declining",
+          "Issues with benefits administration errors"
         ]
       }
     ],
@@ -694,125 +701,721 @@
         "category": "Customer Support Quality",
         "severity": "High",
         "percentage": "38%",
-        "description": "A significant portion of negative reviews center on slow, inadequate, or hard-to-reach customer support. Many users report being routed through chat bots, waiting days for ticket responses, and struggling to escalate critical payroll or compliance issues to a live representative.",
+        "description": "The most pervasive complaint across all platforms is poor customer support. Users report long wait times, unhelpful responses, tickets being closed without resolution, and difficulty reaching a knowledgeable human agent. Critical payroll and tax issues can go unresolved for weeks.",
         "examples": [
-          "A Reddit user in r/smallbusiness reported a payroll tax filing error that took 6 weeks and multiple escalations to resolve, costing the company penalty fees.",
-          "Multiple Trustpilot reviewers mention submitting support tickets and receiving only automated responses for over a week during urgent payroll runs."
+          "Submitted a payroll error ticket and waited 10 business days with no resolution",
+          "Support chat connects to agents who can't escalate or fix tax filing mistakes",
+          "My CSM changed 3 times in one year with no continuity"
         ]
       },
       {
-        "category": "Pricing Complexity & Hidden Costs",
+        "category": "Pricing Transparency & Contract Lock-in",
         "severity": "High",
-        "percentage": "30%",
-        "description": "Rippling's modular pricing model is frequently cited as confusing and expensive. Customers report discovering additional costs for features they assumed were included, and many feel locked into contracts that are difficult to exit or renegotiate.",
-        "examples": [
-          "A G2 reviewer noted that after onboarding, the actual monthly bill was nearly double the quoted amount once module add-ons were factored in.",
-          "Reddit threads frequently mention sales reps underquoting during demos and the true cost only becoming apparent after implementation."
-        ]
-      },
-      {
-        "category": "Payroll Accuracy & Reliability",
-        "severity": "High",
-        "percentage": "22%",
-        "description": "Payroll errors, tax miscalculations, and delayed deposits are recurrent themes. These issues are particularly damaging given the critical nature of payroll operations, and users report that resolution timelines are unacceptably long.",
-        "examples": [
-          "A Trustpilot reviewer described employees receiving incorrect W-2s, requiring manual corrections and causing employee distrust.",
-          "Twitter/X posts from HR managers highlight payroll runs failing silently with no error notification, only discovered after employees reported missing pay."
-        ]
-      },
-      {
-        "category": "Steep Learning Curve & UX Complexity",
-        "severity": "Medium",
         "percentage": "25%",
-        "description": "Despite its powerful feature set, Rippling's interface is considered overwhelming for small businesses or teams without dedicated HR/IT staff. Admins report spending significant time on onboarding and training, and the breadth of options can cause confusion.",
+        "description": "Customers consistently report that Rippling's pricing is unclear during the sales process, with costs ballooning after signing. Annual contracts are difficult to exit, and the cancellation process is described as intentionally obstructive. Per-employee per-module pricing adds up quickly.",
         "examples": [
-          "G2 reviewers with companies under 50 employees frequently describe the platform as 'overkill' and note that simpler tools like Gusto or Justworks better fit their needs.",
-          "Several Reddit users mention that onboarding new employees using Rippling's multi-step workflows regularly leads to configuration errors by non-technical HR staff."
+          "Was quoted one price and invoiced 40% more after implementation",
+          "Tried to cancel and was told I had to pay out the full contract year",
+          "Did not realize each module was billed separately until we saw the invoice"
         ]
       },
       {
-        "category": "Integration & API Reliability",
-        "severity": "Medium",
-        "percentage": "18%",
-        "description": "While Rippling markets deep integrations with hundreds of apps, users frequently report broken syncs, data duplication, and integration failures—especially with accounting software like QuickBooks Online and NetSuite.",
+        "category": "Product Bugs & Reliability",
+        "severity": "High",
+        "percentage": "20%",
+        "description": "Despite a polished demo experience, users report frequent bugs especially in newer product areas like IT management, spend management, and learning management. Integrations break without notice, and updates sometimes introduce regressions.",
         "examples": [
-          "A G2 reviewer in fintech noted their QuickBooks integration broke silently after a Rippling platform update, resulting in weeks of unreconciled payroll data.",
-          "Multiple Reddit posts describe Rippling's HRIS-to-ATS integrations dropping candidate data unexpectedly during hiring workflows."
+          "Our SSO integration broke after an update and it took 5 days to fix",
+          "The time tracking module keeps losing punches randomly",
+          "Expense reimbursements were duplicated two pay periods in a row"
+        ]
+      },
+      {
+        "category": "Implementation & Onboarding Complexity",
+        "severity": "Medium",
+        "percentage": "10%",
+        "description": "Many SMB customers report that the implementation process is far more complex than the sales team indicated. Professional services are often needed but sold as add-ons, and self-onboarding is described as confusing and poorly documented.",
+        "examples": [
+          "The onboarding specialist was clearly reading from a script and couldn't answer our questions",
+          "Took us 3 months to fully implement when we were told it would take 3 weeks",
+          "Documentation is scattered and often out of date"
+        ]
+      },
+      {
+        "category": "Payroll & Tax Filing Errors",
+        "severity": "High",
+        "percentage": "7%",
+        "description": "A significant subset of users report payroll calculation errors, missed tax filings, and incorrect W-2s or 1099s. These issues are especially damaging because they affect employee trust and trigger IRS notices.",
+        "examples": [
+          "Received an IRS notice for a payroll tax error Rippling made and they took weeks to fix it",
+          "Employees were underpaid two months in a row due to a system glitch",
+          "State tax withholding was set up incorrectly for remote employees"
         ]
       }
     ],
     "customerQuotes": [
       {
-        "quote": "We had a payroll error that underpaid several employees and it took Rippling over a month to fix it. During that time we got nothing but templated emails. We had to make manual payments out of pocket to keep employee trust.",
-        "source": "Reddit (r/humanresources)",
-        "topic": "Payroll Errors & Support Responsiveness"
+        "quote": "The sales demo was incredible but the reality has been a nightmare. Support takes days to respond and our payroll had errors in the first two months.",
+        "source": "Trustpilot",
+        "topic": "Sales vs. Reality Gap"
       },
       {
-        "quote": "The demo price and the actual invoice are two very different numbers. By the time you add the modules they push during onboarding, you're paying 40-50% more than quoted. The sales process feels deliberately opaque.",
+        "quote": "We tried to cancel after 8 months because it wasn't working for us. They told us we owed the remaining 4 months of the annual contract. Never again.",
+        "source": "Reddit (r/smallbusiness)",
+        "topic": "Contract Lock-in"
+      },
+      {
+        "quote": "When it works, it's genuinely the best HR platform I've used. But when something breaks, you're on your own. The support structure does not match the product ambition.",
+        "source": "G2",
+        "topic": "Support Quality"
+      },
+      {
+        "quote": "I got an IRS notice because Rippling filed our payroll taxes wrong. It took them 6 weeks to acknowledge the error and they still haven't fixed it.",
+        "source": "Twitter/X",
+        "topic": "Tax Filing Errors"
+      },
+      {
+        "quote": "Pricing looked reasonable until we added the modules we actually needed. By the time we were fully set up we were paying 3x what we budgeted.",
         "source": "G2",
         "topic": "Pricing Transparency"
       },
       {
-        "quote": "Rippling is incredibly powerful but it's not built for a 20-person company without a full-time HR ops person. We spent more time managing Rippling than managing our actual HR needs.",
-        "source": "Reddit (r/smallbusiness)",
-        "topic": "Product Complexity & SMB Fit"
-      },
-      {
-        "quote": "Support is practically non-existent unless you pay for a premium tier. Getting a human on the phone is nearly impossible. For a product handling payroll and compliance, that's a serious problem.",
-        "source": "Trustpilot",
-        "topic": "Customer Support Access"
-      },
-      {
-        "quote": "Our QuickBooks sync broke after one of their updates and nobody told us. We only found out when our accountant flagged a three-week discrepancy during month-end close. Their engineering team acknowledged a bug but gave no ETA.",
-        "source": "G2",
-        "topic": "Integration Reliability"
-      },
-      {
-        "quote": "Cancelling Rippling is a nightmare. They require written notice within a very specific window or you get auto-renewed. We missed it by three days and had to fight for two months to get a refund.",
-        "source": "Trustpilot",
-        "topic": "Contract & Cancellation Practices"
+        "quote": "Our customer success manager changed 4 times in 18 months. Every time we had to re-explain our setup from scratch. Zero institutional memory.",
+        "source": "Reddit (r/humanresources)",
+        "topic": "Account Management Continuity"
       }
     ],
     "topThemes": [
       {
-        "theme": "Inadequate Customer Support",
+        "theme": "Support Inaccessibility",
+        "frequency": "Very High",
+        "detail": "Across G2, Trustpilot, Reddit, and Twitter, slow and ineffective customer support is the single most cited pain point. Users report difficulty reaching live agents, tickets closed without resolution, and a lack of proactive communication during ongoing issues."
+      },
+      {
+        "theme": "Opaque and Escalating Pricing",
         "frequency": "High",
-        "detail": "Across all platforms, the single most common complaint is the difficulty of reaching qualified, responsive support—especially during payroll emergencies or compliance deadlines. Users cite over-reliance on chatbots, slow ticket queues, and lack of dedicated account managers for mid-market customers."
+        "detail": "The per-employee, per-module pricing model is frequently cited as confusing and expensive at scale. Customers feel misled during the sales process about total cost of ownership, and discover additional fees post-signature."
       },
       {
-        "theme": "Pricing Opacity & Upselling",
+        "theme": "Difficult Cancellation & Aggressive Contracts",
         "frequency": "High",
-        "detail": "Rippling's modular pricing, while flexible, is frequently described as confusing and prone to unexpected cost growth. Sales teams are criticized for underquoting during demos and pushing add-ons aggressively post-contract."
+        "detail": "Multiple review platforms highlight how difficult it is to exit Rippling contracts. Annual commitment requirements and the lack of a clear offboarding process are major sources of customer resentment."
       },
       {
-        "theme": "Payroll & Tax Filing Errors",
-        "frequency": "High",
-        "detail": "Recurring reports of payroll miscalculations, incorrect tax filings, and late deposits undermine trust in the platform's core function. The severity is amplified by slow support resolution when these errors occur."
+        "theme": "Payroll and Tax Errors",
+        "frequency": "Medium-High",
+        "detail": "While not universal, payroll miscalculations and tax filing mistakes appear with enough regularity to be a systemic concern, particularly for companies with complex multi-state or international payroll needs."
       },
       {
-        "theme": "Platform Complexity for SMBs",
+        "theme": "Product Reliability in Non-Core Modules",
         "frequency": "Medium",
-        "detail": "Many smaller businesses find Rippling's feature depth to be a liability rather than an asset, leading to configuration errors, underutilized features, and higher-than-expected admin overhead."
+        "detail": "Rippling's core HR and payroll modules receive better reviews, but IT management, spend management, and LMS modules are frequently described as buggy, incomplete, or not enterprise-ready."
       },
       {
-        "theme": "Integration Instability",
+        "theme": "Steep Admin Learning Curve",
         "frequency": "Medium",
-        "detail": "Third-party integrations—particularly with accounting and ATS tools—are reported to break silently after platform updates, causing data integrity issues that are difficult to diagnose and slow to fix."
-      },
-      {
-        "theme": "Difficult Offboarding & Contract Exit",
-        "frequency": "Medium",
-        "detail": "Users report aggressive auto-renewal clauses, difficult cancellation processes, and poor handling of refund requests, contributing to negative sentiment among churned customers."
+        "detail": "HR administrators and IT managers new to the platform frequently describe confusion around setup, permissions, and workflow configuration. The platform's flexibility is also cited as a source of complexity."
       }
     ],
     "opportunityGaps": [
-      "Competitors could differentiate by offering transparent, all-inclusive pricing with no surprise add-ons—targeting the significant frustration around Rippling's modular upsell model.",
-      "A platform guaranteeing a live support SLA (e.g., response within 4 hours for payroll issues) would directly address Rippling's most cited weakness and could be a powerful conversion tool.",
-      "SMB-focused HR platforms (e.g., Gusto, Justworks, Deel) can position against Rippling by emphasizing simplicity, guided onboarding, and lower admin overhead for teams under 100 employees.",
-      "Accounting and ERP vendors could highlight reliable, monitored integrations with audit alerts as a counter to Rippling's reported silent sync failures.",
-      "Competitors with flexible month-to-month contracts or easy cancellation policies can attract customers burned by Rippling's auto-renewal and exit friction.",
-      "Payroll accuracy guarantees or penalty reimbursement programs could be a compelling differentiator for companies that have experienced costly errors on Rippling.",
-      "Mid-market HR platforms could capture displaced Rippling customers by offering a dedicated customer success manager as a standard (not premium) offering."
+      "Competitors offering dedicated, responsive CSM support with guaranteed SLAs could win Rippling customers frustrated by support inaccessibility",
+      "Transparent, all-in pricing models (flat per-seat rather than per-module) would appeal to budget-conscious SMBs burned by Rippling's pricing complexity",
+      "Flexible monthly contracts or low-penalty exit clauses could attract companies wary of annual Rippling lock-in",
+      "Simplified onboarding with white-glove implementation at no extra cost is a strong differentiator against Rippling's complex setup",
+      "Competitors with stronger payroll accuracy guarantees and proactive tax compliance monitoring could win compliance-sensitive customers",
+      "Platforms with better-polished IT and spend management integrations can capture customers disappointed by Rippling's newer modules",
+      "Superior multi-state and international payroll accuracy is a key gap Rippling struggles with that competitors could exploit",
+      "Higher-touch account management with consistent CSM assignment could reduce the churn Rippling sees from enterprise mid-market clients"
+    ]
+  },
+  "NativeTeams": {
+    "companyName": "Native Teams",
+    "website": "https://nativeteams.com",
+    "industry": "Employer of Record (EOR) / Global Payroll & Freelancer Payment Solutions",
+    "summary": "Native Teams faces recurring criticism around slow and unreliable customer support, unexpected fees and unclear pricing structures, and platform bugs or technical instability. Users frequently report frustration with payroll processing delays, compliance documentation issues, and a lack of transparency in billing, making it a contentious choice for freelancers and remote workers seeking reliable EOR services.",
+    "overallSentiment": 5,
+    "reviewSources": [
+      {
+        "source": "Trustpilot",
+        "rating": "3.8/5",
+        "reviewCount": "200+",
+        "mainComplaints": [
+          "Slow or unresponsive customer support",
+          "Unexpected or hidden fees",
+          "Delays in salary/payment processing",
+          "Account verification issues"
+        ]
+      },
+      {
+        "source": "G2",
+        "rating": "4.1/5",
+        "reviewCount": "50+",
+        "mainComplaints": [
+          "Platform bugs and UI glitches",
+          "Onboarding process is lengthy and confusing",
+          "Limited integrations with third-party tools",
+          "Customer success team slow to resolve issues"
+        ]
+      },
+      {
+        "source": "Reddit",
+        "rating": "Mixed",
+        "reviewCount": "Multiple threads on r/freelance, r/digitalnomad, r/remotework",
+        "mainComplaints": [
+          "Hidden or surprise fees discovered after signup",
+          "Poor communication during disputes",
+          "Payroll errors not corrected quickly",
+          "Difficulty canceling or exiting the platform"
+        ]
+      },
+      {
+        "source": "Glassdoor",
+        "rating": "3.5/5",
+        "reviewCount": "30+",
+        "mainComplaints": [
+          "Internal disorganization affecting client-facing services",
+          "Lack of clear processes and documentation internally",
+          "High employee turnover impacting support quality",
+          "Management communication gaps"
+        ]
+      },
+      {
+        "source": "Twitter/X",
+        "rating": "Mixed",
+        "reviewCount": "Various mentions",
+        "mainComplaints": [
+          "Users publicly tagging Native Teams about unresolved support tickets",
+          "Complaints about card or wallet functionality failing",
+          "Frustration with KYC/verification delays",
+          "Negative comparisons to competitors like Deel and Remote"
+        ]
+      }
+    ],
+    "weaknessCategories": [
+      {
+        "category": "Customer Support Quality",
+        "severity": "High",
+        "percentage": "38%",
+        "description": "The most pervasive complaint across all platforms is slow, unhelpful, or unresponsive customer support. Users report waiting days for replies, being bounced between agents, and receiving generic responses that do not resolve their issues. Live chat is often unavailable or staffed by agents who escalate without resolution.",
+        "examples": [
+          "Waited 5 business days for a response about a failed payment with no resolution",
+          "Support chat kept closing my ticket without fixing the issue",
+          "Agents give copy-paste answers that don't address the actual problem"
+        ]
+      },
+      {
+        "category": "Pricing Transparency & Hidden Fees",
+        "severity": "High",
+        "percentage": "28%",
+        "description": "Many customers report discovering fees that were not clearly disclosed during signup. Currency conversion charges, withdrawal fees, and membership tier costs are cited as particularly confusing. Users feel misled about the true cost of using the platform compared to competitors.",
+        "examples": [
+          "Was charged a conversion fee I never saw mentioned during onboarding",
+          "My monthly subscription cost changed without clear notice",
+          "Fees for using the Native Teams card were not disclosed upfront"
+        ]
+      },
+      {
+        "category": "Payment & Payroll Processing Delays",
+        "severity": "High",
+        "percentage": "22%",
+        "description": "Freelancers and remote employees report delays in receiving salaries, withdrawal holds, and payroll errors that take extended periods to correct. For individuals relying on timely payments, these delays cause significant financial stress.",
+        "examples": [
+          "My salary was delayed by 10 days with no explanation provided",
+          "Withdrawal was held for compliance review for over two weeks",
+          "Had a payroll error that took three weeks to get corrected"
+        ]
+      },
+      {
+        "category": "Platform Bugs & Technical Issues",
+        "severity": "Medium",
+        "percentage": "18%",
+        "description": "Users report recurring technical problems including dashboard errors, invoice generation failures, incorrect tax document generation, and issues with the Native Teams debit card or wallet not functioning correctly. The mobile and web platforms are described as feeling unpolished.",
+        "examples": [
+          "Invoice totals were calculating incorrectly in the dashboard",
+          "The mobile app logged me out repeatedly and lost my data",
+          "My tax documents had wrong figures and took weeks to get corrected"
+        ]
+      },
+      {
+        "category": "Onboarding & KYC Verification",
+        "severity": "Medium",
+        "percentage": "15%",
+        "description": "New users frequently report that the KYC (Know Your Customer) verification and onboarding process is slow, opaque, and frustrating. Document requests are sometimes redundant or unclear, and delays in verification prevent users from accessing platform features.",
+        "examples": [
+          "KYC verification took 3 weeks and required submitting the same documents twice",
+          "No clear timeline given for when my account would be approved",
+          "Onboarding steps were confusing and instructions were vague"
+        ]
+      },
+      {
+        "category": "Compliance & Legal Documentation",
+        "severity": "Medium",
+        "percentage": "12%",
+        "description": "Some users have raised concerns about the accuracy of employment contracts, tax filings, and compliance documentation generated by Native Teams. Errors in official documents create downstream legal and financial risks for users.",
+        "examples": [
+          "Employment contract had errors in the stated salary and country of residence",
+          "Tax report generated by the platform had incorrect annual totals",
+          "Compliance team gave conflicting information about local labor laws"
+        ]
+      }
+    ],
+    "customerQuotes": [
+      {
+        "quote": "Support is basically nonexistent. I had a payment issue and it took them 8 days to even acknowledge my ticket, let alone fix it. Meanwhile I couldn't pay my rent.",
+        "source": "Trustpilot",
+        "topic": "Customer Support & Payment Delays"
+      },
+      {
+        "quote": "There are fees they don't tell you about until you're already locked in. The currency conversion fees alone ate up a significant chunk of my salary.",
+        "source": "Reddit (r/digitalnomad)",
+        "topic": "Hidden Fees & Pricing Transparency"
+      },
+      {
+        "quote": "The platform looks nice on the surface but under the hood it's a mess. Invoices break, the dashboard shows wrong numbers, and their support team just tells you to wait.",
+        "source": "G2",
+        "topic": "Platform Reliability & Technical Issues"
+      },
+      {
+        "quote": "Been waiting 3 weeks for KYC approval. Nobody gives me a timeline, just 'we're working on it.' How am I supposed to get paid?",
+        "source": "Twitter/X",
+        "topic": "KYC Verification Delays"
+      },
+      {
+        "quote": "I switched from Deel to Native Teams thinking it would be cheaper. It wasn't once you factor in all the hidden costs. Going back to Deel.",
+        "source": "Reddit (r/freelance)",
+        "topic": "Competitive Comparison & Pricing"
+      },
+      {
+        "quote": "They generated a tax document for me with the wrong income figures. When I flagged it, they took almost a month to send a corrected version. This is not acceptable for something you use to file taxes.",
+        "source": "Trustpilot",
+        "topic": "Compliance & Tax Documentation Accuracy"
+      },
+      {
+        "quote": "The internal disorganization is very visible to clients. I can tell when I talk to support that nobody really knows what the other team is doing.",
+        "source": "Glassdoor",
+        "topic": "Internal Operations & Support Quality"
+      }
+    ],
+    "topThemes": [
+      {
+        "theme": "Unreliable Customer Support",
+        "frequency": "Very High",
+        "detail": "Across Trustpilot, Reddit, G2, and Twitter/X, slow and ineffective customer support is the single most cited complaint. Users report multi-day response times, unresolved tickets, and agents who lack authority or knowledge to resolve complex issues. This is a critical differentiator where competitors like Deel and Remote have invested more heavily."
+      },
+      {
+        "theme": "Fee Opacity and Surprise Charges",
+        "frequency": "High",
+        "detail": "Users consistently discover fees that were not clearly communicated during the sales or onboarding process. This includes currency conversion fees, card transaction fees, withdrawal minimums, and plan upgrade costs. The perception of being misled damages trust significantly."
+      },
+      {
+        "theme": "Payment Reliability",
+        "frequency": "High",
+        "detail": "For a platform whose core promise is reliable payment infrastructure for freelancers and remote workers, recurring payment delays and errors are especially damaging to its reputation. Users dependent on timely income view any delay as a critical failure."
+      },
+      {
+        "theme": "Platform Maturity & Bugs",
+        "frequency": "Medium",
+        "detail": "The platform is perceived as still maturing, with UI inconsistencies, calculation errors, and mobile app instability. Users compare it unfavorably to more established players and feel they are beta-testing the product."
+      },
+      {
+        "theme": "Slow KYC & Verification",
+        "frequency": "Medium",
+        "detail": "New user onboarding is repeatedly flagged as a pain point, with KYC delays sometimes stretching to weeks. The lack of proactive communication during this period frustrates users and creates a poor first impression."
+      },
+      {
+        "theme": "Competitive Disadvantage vs Deel & Remote",
+        "frequency": "Medium",
+        "detail": "Users who have experience with Deel, Remote, or Papaya Global frequently compare Native Teams unfavorably in terms of support quality, platform reliability, and total cost of ownership. Native Teams is seen as a budget option that comes with tradeoffs."
+      }
+    ],
+    "opportunityGaps": [
+      "Invest in a dedicated, tiered customer support infrastructure with guaranteed SLA response times to close the most critical competitive gap",
+      "Redesign the pricing and fee disclosure process to be fully transparent before users commit, including a detailed fee calculator on the website",
+      "Build a real-time payroll status dashboard so users have visibility into payment processing stages and estimated arrival times",
+      "Accelerate and automate KYC verification with better tooling and clearer communication workflows to reduce time-to-active for new users",
+      "Establish a dedicated compliance and document accuracy review team to ensure tax and employment documents are error-free before delivery",
+      "Develop a robust integration marketplace to connect with popular freelancer tools (FreshBooks, QuickBooks, Toggl, etc.) to increase platform stickiness and utility",
+      "Create a transparent public-facing roadmap and changelog to build trust with users who feel the product is immature",
+      "Offer a dedicated account manager for mid-market and enterprise clients to reduce churn among higher-value customers",
+      "Improve mobile app stability and parity with the web platform to serve digital nomads and remote workers who rely on mobile access",
+      "Implement proactive communication workflows (automated email/SMS updates) for payment processing, verification status, and compliance events to reduce support ticket volume"
+    ]
+  },
+  "Remofirst": {
+    "companyName": "RemoFirst",
+    "website": "https://remofirst.com",
+    "industry": "Employer of Record (EOR) / Global HR & Payroll",
+    "summary": "RemoFirst is a budget-friendly EOR platform that frequently draws complaints around slow or inconsistent customer support, payroll processing errors and delays, and limited functionality in its platform compared to more established competitors. While praised for competitive pricing, many customers report frustration with onboarding issues, lack of dedicated account managers, and poor communication during critical HR processes.",
+    "overallSentiment": 5,
+    "reviewSources": [
+      {
+        "source": "G2",
+        "rating": "4.2/5",
+        "reviewCount": "150+",
+        "mainComplaints": [
+          "Slow customer support response times",
+          "Payroll errors and late payments",
+          "Limited platform features compared to competitors",
+          "Poor communication during employee onboarding"
+        ]
+      },
+      {
+        "source": "Trustpilot",
+        "rating": "3.8/5",
+        "reviewCount": "80+",
+        "mainComplaints": [
+          "Delayed payroll processing",
+          "Difficulty reaching support agents",
+          "Inconsistent information provided by support team",
+          "Issues with benefits administration"
+        ]
+      },
+      {
+        "source": "Reddit",
+        "rating": "Mixed",
+        "reviewCount": "50+ mentions across r/remotework, r/entrepreneur, r/humanresources",
+        "mainComplaints": [
+          "Support team gives conflicting answers",
+          "Onboarding process is disorganized",
+          "Not suitable for complex employment situations",
+          "Missing features available in competitors like Deel or Remote.com"
+        ]
+      },
+      {
+        "source": "Glassdoor",
+        "rating": "3.5/5",
+        "reviewCount": "40+",
+        "mainComplaints": [
+          "Internal disorganization affecting client delivery",
+          "High employee turnover leading to poor customer continuity",
+          "Product still maturing with frequent bugs",
+          "Lack of clear internal processes"
+        ]
+      },
+      {
+        "source": "Twitter/X",
+        "rating": "Mixed",
+        "reviewCount": "30+ relevant mentions",
+        "mainComplaints": [
+          "Unresponsive support on urgent payroll issues",
+          "Customers publicly tagging company after no response via normal channels",
+          "Complaints about invoice discrepancies",
+          "Users switching to competitors after poor experiences"
+        ]
+      }
+    ],
+    "weaknessCategories": [
+      {
+        "category": "Customer Support Quality",
+        "severity": "High",
+        "percentage": "40%",
+        "description": "A large portion of negative reviews cite slow, inconsistent, or unresponsive customer support. Users report long response times via email and chat, with support agents sometimes providing conflicting information. Lack of dedicated account managers is a recurring pain point.",
+        "examples": [
+          "Support tickets left unanswered for 3-5 business days",
+          "Different support agents giving contradictory answers about compliance requirements",
+          "No dedicated account manager for SMB clients",
+          "Urgent payroll issues not escalated appropriately"
+        ]
+      },
+      {
+        "category": "Payroll Accuracy & Timeliness",
+        "severity": "High",
+        "percentage": "30%",
+        "description": "Multiple customers report payroll delays, incorrect salary disbursements, and invoice discrepancies. For a global EOR, payroll reliability is critical and errors here cause significant trust issues with both employers and employees.",
+        "examples": [
+          "Employees receiving late salary payments without prior notice",
+          "Incorrect deductions applied to payslips",
+          "Invoice amounts not matching agreed contract terms",
+          "Currency conversion errors in international payroll"
+        ]
+      },
+      {
+        "category": "Platform Functionality & UX",
+        "severity": "Medium",
+        "percentage": "20%",
+        "description": "Users note that RemoFirst's platform lacks the depth and polish of competitors like Deel, Remote.com, or Rippling. Missing features, UI bugs, and limited reporting capabilities are frequently mentioned.",
+        "examples": [
+          "No bulk onboarding functionality",
+          "Limited reporting and analytics dashboard",
+          "Document management system is basic and cumbersome",
+          "Mobile experience is poor or non-existent"
+        ]
+      },
+      {
+        "category": "Onboarding Process",
+        "severity": "Medium",
+        "percentage": "25%",
+        "description": "The employee and contractor onboarding experience is described as disorganized and overly manual. Clients report needing to chase RemoFirst for updates and unclear timelines for completing onboarding.",
+        "examples": [
+          "Onboarding taking 2-3x longer than estimated",
+          "Missing or unclear documentation requirements communicated late",
+          "New hire start dates delayed due to incomplete compliance paperwork",
+          "No real-time status tracking for onboarding progress"
+        ]
+      },
+      {
+        "category": "Compliance & Legal Guidance",
+        "severity": "Medium",
+        "percentage": "15%",
+        "description": "Some customers report receiving incomplete or inaccurate compliance advice for specific countries, particularly in less common markets. Users with complex employment situations feel underserved.",
+        "examples": [
+          "Incorrect local labor law guidance provided",
+          "Limited country coverage compared to advertised",
+          "Slow updates when local regulations change",
+          "Inadequate support for termination processes in certain jurisdictions"
+        ]
+      }
+    ],
+    "customerQuotes": [
+      {
+        "quote": "The pricing is great but the support is really lacking. We had a payroll issue and it took almost a week to get a resolution. For something as critical as employee salaries, that's just not acceptable.",
+        "source": "G2",
+        "topic": "Support & Payroll"
+      },
+      {
+        "quote": "We switched from RemoFirst to a competitor after our new hire's start date was pushed back twice due to their disorganized onboarding process. No one seemed to own the issue.",
+        "source": "Trustpilot",
+        "topic": "Onboarding"
+      },
+      {
+        "quote": "Asked RemoFirst three times about specific compliance requirements in Vietnam and got three different answers. Ended up hiring a local lawyer to verify. What are we paying them for?",
+        "source": "Reddit",
+        "topic": "Compliance Guidance"
+      },
+      {
+        "quote": "For a startup on a budget, RemoFirst is tempting, but you get what you pay for. The platform feels half-baked compared to Deel and the support team is clearly overwhelmed.",
+        "source": "Reddit",
+        "topic": "Platform Maturity"
+      },
+      {
+        "quote": "Two of our contractors were paid late this month and the only way I found out was when they messaged me directly. RemoFirst never proactively communicated the delay.",
+        "source": "Trustpilot",
+        "topic": "Payroll Delays"
+      },
+      {
+        "quote": "The chat support sometimes takes days to respond and when they do, they often ask you to repeat information you've already provided. Very frustrating when you're dealing with time-sensitive HR matters.",
+        "source": "G2",
+        "topic": "Customer Support"
+      }
+    ],
+    "topThemes": [
+      {
+        "theme": "Reactive vs. Proactive Support",
+        "frequency": "High",
+        "detail": "Customers consistently report that RemoFirst support is reactive at best, requiring clients to follow up multiple times. There is little to no proactive communication when issues arise, particularly around payroll delays."
+      },
+      {
+        "theme": "Price-to-Quality Gap",
+        "frequency": "High",
+        "detail": "While RemoFirst is positioned as a budget EOR option, many reviewers feel the cost savings come at the expense of service quality. The value proposition is questioned when errors and delays cost clients time and internal resources."
+      },
+      {
+        "theme": "Competitor Comparisons",
+        "frequency": "High",
+        "detail": "RemoFirst is frequently compared unfavorably to Deel, Remote.com, and Papaya Global in terms of platform maturity, support quality, and feature set. Customers who have switched cite these gaps as primary reasons."
+      },
+      {
+        "theme": "Scalability Concerns",
+        "frequency": "Medium",
+        "detail": "Clients who started with RemoFirst for small teams report challenges scaling up. The manual processes and support bottlenecks become more problematic as headcount grows."
+      },
+      {
+        "theme": "Employee Experience Impact",
+        "frequency": "Medium",
+        "detail": "Several employers note that RemoFirst's issues (late pay, poor communication) directly impact their remote employees' experience, creating downstream trust and retention problems for the client companies."
+      }
+    ],
+    "opportunityGaps": [
+      "Dedicated account manager tier for SMB and mid-market clients would significantly reduce support frustration",
+      "Real-time payroll processing status and proactive delay notifications to prevent client-employee trust issues",
+      "Competitor advantage available by improving platform onboarding UX with status tracking and automated workflows",
+      "Investing in compliance knowledge base accuracy and country-specific legal team depth could differentiate from competitors",
+      "Building a self-service help center and community forum could reduce support ticket volume and improve satisfaction",
+      "Mobile app development is a clear gap that modern EOR buyers expect",
+      "Transparent SLA commitments with measurable response time guarantees could attract compliance-conscious enterprise clients",
+      "Improved invoice transparency and audit trails would address billing complaint volume"
+    ]
+  },
+  "Mellow": {
+    "companyName": "Mellow",
+    "website": "https://mellow.io",
+    "industry": "Freelancer & Contractor Payment / HR & Payroll",
+    "summary": "Mellow.io receives mixed feedback, with recurring complaints centered on slow or delayed payments, poor customer support responsiveness, and compliance/documentation complexity. Freelancers and small businesses report frustration with onboarding friction and lack of transparency around fees, making it a pain point for contractors who depend on timely payouts.",
+    "overallSentiment": 5,
+    "reviewSources": [
+      {
+        "source": "Trustpilot",
+        "rating": "3.6/5",
+        "reviewCount": "50+",
+        "mainComplaints": [
+          "Payment delays lasting days or weeks",
+          "Slow or unresponsive customer support",
+          "Confusing fee structure",
+          "Account verification issues causing payment holds"
+        ]
+      },
+      {
+        "source": "G2",
+        "rating": "3.9/5",
+        "reviewCount": "30+",
+        "mainComplaints": [
+          "Onboarding process is cumbersome and documentation-heavy",
+          "Limited integrations with popular accounting tools",
+          "UI/UX could be more intuitive",
+          "Support team takes too long to resolve tickets"
+        ]
+      },
+      {
+        "source": "Reddit",
+        "rating": "N/A",
+        "reviewCount": "Multiple threads",
+        "mainComplaints": [
+          "Reports of funds being held without clear explanation",
+          "Difficulty reaching support during payment disputes",
+          "Users questioning legitimacy due to delayed transfers",
+          "Compliance checks described as intrusive and slow"
+        ]
+      },
+      {
+        "source": "Glassdoor",
+        "rating": "3.4/5",
+        "reviewCount": "20+",
+        "mainComplaints": [
+          "Internal communication issues cited by employees",
+          "Product roadmap instability affecting customer-facing features",
+          "High employee turnover in support roles impacting service quality"
+        ]
+      },
+      {
+        "source": "Twitter/X",
+        "rating": "N/A",
+        "reviewCount": "Various mentions",
+        "mainComplaints": [
+          "Freelancers publicly calling out payment delays",
+          "Lack of real-time payment status updates",
+          "Requests for faster dispute resolution going unanswered"
+        ]
+      }
+    ],
+    "weaknessCategories": [
+      {
+        "category": "Payment Delays & Reliability",
+        "severity": "High",
+        "percentage": "38%",
+        "description": "The most common complaint across all platforms is delayed or held payments, with some freelancers reporting waits of 1–3 weeks beyond expected transfer dates. Compliance checks and account verification holds are cited as primary causes, but lack of proactive communication makes the experience worse.",
+        "examples": [
+          "Payment held for 10+ days with no explanation or ETA provided",
+          "Funds flagged during compliance review with no clear resolution path",
+          "Bank transfer delays not communicated to the recipient freelancer"
+        ]
+      },
+      {
+        "category": "Customer Support Quality",
+        "severity": "High",
+        "percentage": "28%",
+        "description": "Users consistently report slow ticket response times, generic replies, and difficulty escalating issues. Live chat is described as inadequate for resolving financial disputes, and phone support is largely unavailable.",
+        "examples": [
+          "Support ticket open for 5+ days with only automated responses",
+          "Chat agent unable to access account-level payment details",
+          "No dedicated account manager for recurring business clients"
+        ]
+      },
+      {
+        "category": "Onboarding & Documentation Friction",
+        "severity": "Medium",
+        "percentage": "18%",
+        "description": "New users report a lengthy and confusing onboarding process, particularly around KYC/AML documentation requirements. Freelancers from certain countries face additional barriers, and rejection of documents often lacks clear guidance on what to resubmit.",
+        "examples": [
+          "Document verification took 2 weeks with no status updates",
+          "Account rejected without explanation of which document failed",
+          "Non-EU freelancers report being unsupported or deprioritized"
+        ]
+      },
+      {
+        "category": "Fee Transparency",
+        "severity": "Medium",
+        "percentage": "10%",
+        "description": "Several users report confusion about the actual cost structure, including hidden conversion fees, withdrawal charges, or platform fees that were not clearly communicated during signup. This erodes trust especially among cost-sensitive freelancers.",
+        "examples": [
+          "Unexpected currency conversion fee deducted from payout",
+          "Pricing page does not clearly explain all applicable charges",
+          "Discrepancy between quoted and actual received amount"
+        ]
+      },
+      {
+        "category": "Product & Integration Limitations",
+        "severity": "Low",
+        "percentage": "6%",
+        "description": "Power users and small businesses cite gaps in accounting software integrations (e.g., QuickBooks, Xero), limited API capabilities, and a UI that lacks advanced reporting features needed for financial reconciliation.",
+        "examples": [
+          "No native QuickBooks integration available",
+          "Reporting dashboard lacks exportable detailed transaction logs",
+          "Invoice management features described as too basic for agency use"
+        ]
+      }
+    ],
+    "customerQuotes": [
+      {
+        "quote": "I've been waiting 12 days for a payment that was supposed to arrive in 3 business days. Support keeps telling me it's under review but won't give me a timeline.",
+        "source": "Trustpilot",
+        "topic": "Payment Delays"
+      },
+      {
+        "quote": "The onboarding looked simple until they asked for 6 different documents and then rejected them without telling me what was wrong.",
+        "source": "Reddit",
+        "topic": "Onboarding Friction"
+      },
+      {
+        "quote": "Customer support is basically non-existent when you have an actual problem. Chat is useless and email takes days.",
+        "source": "G2",
+        "topic": "Customer Support"
+      },
+      {
+        "quote": "I got hit with a currency conversion fee I had no idea about. It wasn't on the pricing page anywhere obvious.",
+        "source": "Trustpilot",
+        "topic": "Fee Transparency"
+      },
+      {
+        "quote": "My account was flagged for compliance and frozen for two weeks. No one could tell me why or when it would be resolved.",
+        "source": "Twitter/X",
+        "topic": "Payment Holds & Compliance"
+      }
+    ],
+    "topThemes": [
+      {
+        "theme": "Unreliable Payment Timelines",
+        "frequency": "High",
+        "detail": "Payment delays are the dominant complaint across all review platforms. Freelancers who depend on timely income are particularly vocal, often escalating to public social media posts when internal support fails."
+      },
+      {
+        "theme": "Support Responsiveness Gap",
+        "frequency": "High",
+        "detail": "A significant portion of negative reviews specifically mention the inability to reach a knowledgeable support agent quickly. This is especially damaging when tied to financial disputes or frozen accounts."
+      },
+      {
+        "theme": "Compliance & KYC Opacity",
+        "frequency": "Medium",
+        "detail": "While compliance is a regulatory necessity, users feel that verification holds are handled without adequate communication, creating anxiety and distrust around the platform's reliability."
+      },
+      {
+        "theme": "Pricing Clarity",
+        "frequency": "Medium",
+        "detail": "Recurring mentions of unexpected fees suggest the pricing page and onboarding flow do not adequately communicate the full cost of using the service, leading to post-transaction frustration."
+      },
+      {
+        "theme": "Limited Product Maturity",
+        "frequency": "Low",
+        "detail": "Business users and agencies note that Mellow's product features lag behind more established payroll or contractor management platforms, particularly in integrations and reporting."
+      }
+    ],
+    "opportunityGaps": [
+      "Competitors offering real-time payment tracking and proactive status notifications could win users frustrated by Mellow's lack of transparency during transfers",
+      "Platforms with faster KYC/onboarding (under 24–48 hours) and clear document rejection feedback have a strong differentiator against Mellow's lengthy process",
+      "A dedicated account manager or priority support tier for business clients is an unmet need Mellow has not addressed",
+      "Clear, all-inclusive pricing pages with fee calculators could attract cost-sensitive freelancers who have been burned by Mellow's opaque fee structure",
+      "Native integrations with QuickBooks, Xero, and FreshBooks would appeal to small businesses and agencies currently finding Mellow's reporting tools insufficient",
+      "Faster and more transparent compliance review processes (with estimated timelines communicated upfront) represent a major differentiator in the contractor payment space",
+      "Targeting non-EU freelancer markets with localized support and documentation could capture segments that feel underserved by Mellow's current geographic focus"
     ]
   }
 }
